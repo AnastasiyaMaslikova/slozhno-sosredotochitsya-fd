@@ -7,7 +7,6 @@
   background-size: cover;
   background-attachment: fixed;
   background-color: var(--bg-color);
-  overflow: auto;
 }
 
 .header {

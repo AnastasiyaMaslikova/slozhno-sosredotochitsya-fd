@@ -9,4 +9,16 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+
+  --bg-img: url(../images/cover-image-dark.png);
+  --accent-color: #FF0070;
+  --bg-color: #000028;
+  --head-foot-color: #DB00FF;
+  --decor-color: #000028;
+  --fn-color: #F1B2CE;
+  --out-color: #F1B2CE;
+  --sec-title-color: #FF0070;
+  --but-color: #FF0070;
+  --dec-zone-color: #FF0070;
+  --hover-but-color: #FF007066;
 }

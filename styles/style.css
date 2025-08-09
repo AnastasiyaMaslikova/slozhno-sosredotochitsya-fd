@@ -182,6 +182,10 @@
   gap: 10px;
 }
 
+.card__title-margin {
+  margin-block-start: 10px;
+}
+
 .card__paragraph a {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
@@ -289,7 +293,6 @@
 
   .why .section__title, .how .section__title {
     grid-column: 1;
-    grid-row: span 2;
   }
 
   .why .card, .how .card {
@@ -371,10 +374,6 @@
   }
 
   .why .card, .how .card {
-    margin-inline-start: -6px;
-  }
-
-  .card__title-margin {
     margin-inline-start: -6px;
   }
 

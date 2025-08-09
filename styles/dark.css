@@ -23,3 +23,7 @@
   --hover-but-color: #FF007066;
   
 }
+
+.theme-dark .header__rec {
+  display: block;
+}

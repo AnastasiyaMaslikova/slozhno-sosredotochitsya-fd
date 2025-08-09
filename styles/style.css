@@ -83,10 +83,6 @@
   background-color: var(--accent-color);
 }
 
-.theme-light .header__rec {
-  display: none;
-}
-
 .header__title {
   color: var(--head-foot-color);
   font-family: var(--fn-family);
@@ -141,7 +137,6 @@
 }
 
 .main {
-  background-color: var(--bg-color);
   padding: 40px 10px;
 }
 
@@ -177,6 +172,16 @@
   color: var(--fn-color);
 }
 
+.how__list {
+  display: grid;
+  gap: 20px;
+}
+
+.how__list-item {
+  display: grid;
+  gap: 10px;
+}
+
 .card__paragraph a {
   text-decoration: none;
   text-shadow: 2px 2px 0 var(--accent-color);
@@ -198,10 +203,6 @@
   font-weight: var(--fn-reg-weight);
 }
 
-.card__title-margin {
-  margin-block-start: 10px;
-}
-
 .gallery {
   display: grid;
   gap: 10px;
@@ -215,7 +216,6 @@
 }
 
 .footer {
-  background-color: var(--bg-color);
   height: 100vh;
   min-block-size: 668px;
   position: relative;
@@ -289,6 +289,7 @@
 
   .why .section__title, .how .section__title {
     grid-column: 1;
+    grid-row: span 2;
   }
 
   .why .card, .how .card {
@@ -370,6 +371,10 @@
   }
 
   .why .card, .how .card {
+    margin-inline-start: -6px;
+  }
+
+  .card__title-margin {
     margin-inline-start: -6px;
   }
 

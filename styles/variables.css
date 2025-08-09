@@ -16,7 +16,7 @@
   --dec-zone-color: #FF0070;
   --hover-but-color: #FF007066;
   --fn-reg-size: 18px;
-  --fn-family: 'IBM Plex Mono', sans-serif;
+  --fn-family: 'IBM Plex Mono', monospace;
   --fn-reg-weight: 400;
   --fn-bold-weight: 700;
   --title-small-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
